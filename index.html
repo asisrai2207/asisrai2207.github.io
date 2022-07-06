@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <!--Bootstrap CDN-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+     <!--Custom Stylesheet-->
+     <link rel="stylesheet" href="./assets/styles.css" />
+
+      <!--Animate CDN-->
+    <link rel="stylesheet" href="./assets/animate.css">
+
+    <!--Fontawesome CDN-->
+    <script
+      src="https://kit.fontawesome.com/ceade799c3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Finlandica&display=swap" rel="stylesheet">
+  </head>
+  <header>
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark justify-content-between "
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><strong>ASIS RAI</strong></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-md-center"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item mx-4">
+              <a class="nav-link active" aria-current="page" href="#about"
+                ><span class="underline-06">About Me</span></a
+              >
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link active " aria-current="page" href="#skills"
+                ><span class="underline-06">Skills</span></a
+              >
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link active" aria-current="page" href="#features"
+                ><span class="underline-06">My Works</span></a
+              >
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link active" aria-current="page" href="#contact-me"
+                ><span class="underline-06">Contact</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </header>
+  <body>
+      <section class="about-header text-center" id="home">
+        <div class="overlay" id="banner-overlay"></div>
+        <div class="heading col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light text-dark animate__animated animate__fadeInDown animate__delay-1s">Hello! Welcome to my Page!</h1>
+          <!-- <p class="lead text-dark animate__animated animate__fadeInDown animate__delay-2s">
+            My name is Asis. I am a student for Xceelerate enrolled on Fullstack
+            Web Development for June. Currently on the path to become a
+            Fullstack Web Developer.
+          </p> -->
+        </div>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-img">
+              <div class="img-box">
+                <img src="./assets/aboutme-img.jpg" alt="about me">
+              </div>
+            </div>
+            <div class="about-content">
+               <div class="row">
+                      <div class="section-title">
+                         <h1><span class="underline-06">About Me</span></h1>
+                      </div>
+                    </div>
+                    <p class="animate__animated wow animate__fadeInDown animate__delay-1s fs-5">My name is Asis. I am a student for Xceelerate enrolled on Fullstack
+                      Web Development for June. Currently on the path to become a
+                      Fullstack Web Developer.  <br/><br/>
+                      My hobbies are going to gym and Procastinating. <br/><br/>During weekends I like to go on hikes and my goal is to complete all the main hiking trials in Hongkong. </p>
+                    <!-- contact btn -->
+                    <a href="#contact-me" class="btn btn-01">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!--Skills Section-->
+    <hr class="featurette-divider" />
+    <div class="progress-bar-main" id="skills">
+      <div class="container border border-dark border-2 border-opacity-25 rounded-3">
+        <div class="row text-center">
+          <h1 class="heading-title"><span class="underline-06">Current Skills</span></h1>
+        </div>
+        <div class="row-skills">
+          <div class="col-md-offset-3 col-md-6">
+            <h3 class="progress-title">
+              <i class="fa-brands fa-html5"></i> HTML5: 40%
+            </h3>
+            <div class="progress pink">
+              <div class="progress-bar" style="width: 40%; background: #ff4b7d">
+                <div class="progress-value">40%</div>
+              </div>
+            </div>
+
+            <h3 class="progress-title">
+              <i class="fa-brands fa-css3-alt"></i> CSS3: 30%
+            </h3>
+            <div class="progress green">
+              <div class="progress-bar" style="width: 30%; background: #5fad56">
+                <div class="progress-value">75%</div>
+              </div>
+            </div>
+
+            <h3 class="progress-title">
+              <i class="fa-brands fa-js-square"></i> Javascript: 30%
+            </h3>
+            <div class="progress yellow">
+              <div class="progress-bar" style="width: 30%; background: #e8d324">
+                <div class="progress-value">30%</div>
+              </div>
+            </div>
+
+            <h3 class="progress-title">
+              <i class="fa-brands fa-bootstrap"></i> Bootstrap: 40%
+            </h3>
+            <div class="progress blue">
+              <div class="progress-bar" style="width: 40%; background: #3485ef">
+                <div class="progress-value">40%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--Feature Section-->
+    <hr class="featurette-divider" />
+
+    <div class="featurette-main" id="features">
+    <div class="row text-center ">
+      <h1 class="heading-title"><span class="underline-06">My Works</span></h1>
+    </div>
+    <div class="rowf featurette animate__animated wow animate__fadeInLeft" data-wow-duration="2s" data-wow-delay="1s">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1 ">Portfolio Page</h2>
+        <p class="lead">For our first project. I had to work on a personal website about myself 
+          and also showcasing my skills and projects thats i have worked on. 
+          <br/>This website was developed using HTML, CSS, JavaScript, Jquery and BootStrap and also using Aniamte and WOW Js for animation.
+          </p>
+          <a href="#" class="btn btn-01">For More Info</a>
+      </div>
+      <div class="col-md-5">
+        <img
+          src="./assets/laptop.jpg"
+          width="400"
+          height="400"
+          alt="computer image"
+        />
+      </div>
+    </div>
+
+    <hr class="featurette-divider" />
+
+    <div class="rowf featurette animate__animated wow animate__fadeInRight " data-wow-duration="2s" data-wow-delay="1s">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Portfolio Page</h2>
+        <p class="lead">For our first project. I had to work on a personal website about myself 
+          and also showcasing my skills and projects thats i have worked on. 
+          <br/>This website was developed using HTML, CSS, JavaScript, Jquery and BootStrap and also using Aniamte and WOW Js for animation.
+          </p>
+        <a href="#" class="btn btn-01">For More Info</a>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img
+        src="./assets/laptop.jpg"
+        width="400"
+        height="400"
+        alt="computer image"
+      />
+      </div>
+    </div>
+
+    <hr class="featurette-divider" />
+
+    <div class="rowf featurette animate__animated wow animate__fadeInLeft " data-wow-duration="2s" data-wow-delay="1s">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1 ">Portfolio Page</h2>
+        <p class="lead">For our first project. I had to work on a personal website about myself 
+          and also showcasing my skills and projects thats i have worked on. 
+          <br/>This website was developed using HTML, CSS, JavaScript, Jquery and BootStrap and also using Aniamte and WOW Js for animation.
+          </p>
+        <a href="#" class="btn btn-01">For More Info</a>
+      </div>
+      <div class="col-md-5">
+        <img
+        src="./assets/laptop.jpg"
+        width="400"
+        height="400"
+        alt="computer image"
+      />
+      </div>
+    </div>
+  </div>
+    <hr class="featurette-divider" />
+
+<!--Contact Section-->
+    <section class="contact-section" id="contact-me">
+      <div class="container">
+        <div class="row">
+          <div class="contact-img">
+            <div class="img-box">
+              <div class="section-title">
+                <h1><span class="underline-06">Contact Me</span></h1>
+              </div>
+            </div>
+          </div>
+        </div>
+            <div class="row">
+              <div class="contact-form">
+                <form class="form">
+                  <div class="row">
+                    <div class="left input-group">
+                      <label>Name</label>
+                      <input type="text" placeholder="Your Name Here" class="input-control">
+                    </div>
+                    <div class="right input-group">
+                      <label>Phone</label>
+                      <input type="text" placeholder="Your Phone Here" class="input-control">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="right input-group">
+                      <label>Email</label>
+                      <input type="text" placeholder="Your Email Here" class="input-control">
+                    </div>
+                    <div class="input-group">
+                      <label>Message</label>
+                      <textarea class="input-control" placeholder="Your Message Here"></textarea>
+                    </div>
+                  </div>
+                  <div class="form-btn">
+                    <button type="button" class="btn btn-01">Send Message</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="contact-info">
+                <div class="row">
+                  <!-- info item start -->
+                  <div class="info-item">
+                    <h5>Address</h5>
+                    <p>3/F, Citicorp Centre, 18 Whitfield Rd, Causeway Bay</p>
+                  </div>
+                  <!-- info item end -->
+                  <!-- info item start -->
+                  <div class="info-item">
+                    <h5>Phone</h5>
+                    <p>+852 60994271</p>
+                  </div>
+                  <!-- info item end -->
+                  <!-- info item start -->
+                  <div class="info-item">
+                    <h5>Email</h5>
+                    <p>asis.rai01@gmail.com</p>
+                  </div>
+                  <!-- info item end -->
+                </div>
+              </div>
+            </div>
+    
+            <div class="row">
+              <div class="social-links">
+                <a href="https://www.facebook.com/" target="_blank" title="facebook"><img src="./assets/icons/facebook.svg" alt="facebook"></a>
+                <a href="https://twitter.com/home" target="_blank" title="twitter"><img src="./assets/icons/twitter.svg" alt="twitter"></a>
+                <a href="https://www.linkedin.com/feed/" target="_blank" title="linkedin"><img src="./assets/icons/linkedin.svg" alt="linkedin"></a>
+                <a href="https://www.instagram.com/" target="_blank" title="instagram"><img src="./assets/icons/instagram.svg" alt="instagram"></a>
+              </div>
+            </div>
+    
+      </div>
+    </section>
+
+    <hr class="featurette-divider" />
+
+    <div class="bottom-container bg-dark text-white">
+      <p>© Asis Rai 2022.</p>
+    </div>
+
+    <script src="./javascript/jquery.js"></script>
+    <script src="./javascript/wow.min.js"></script>
+    <script> new WOW().init(); </script>
+    <script src="./javascript/script.js"></script>
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+
+  </body>
+</html>
